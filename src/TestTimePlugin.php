@@ -1,15 +1,15 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Asosick\TestTime;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class SkeletonPlugin implements Plugin
+class TestTimePlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'test-time';
     }
 
     public function register(Panel $panel): void

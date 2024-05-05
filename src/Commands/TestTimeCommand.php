@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Asosick\TestTime\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class TestTimeCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'test-time';
 
     public $description = 'My command';
 
